@@ -1,0 +1,68 @@
+*{
+     margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 74, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+.container{
+    align-items: center;
+    padding: 2%;
+    background-color: white;
+    width: 50%;
+    height: 70vh;
+    border-radius: 2%;
+    justify-content: space-between;
+    
+
+}
+.heading{
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(40, 50, 57);
+}
+#todo{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 80%;
+    border: solid;
+    border-color: rgb(48, 86, 198);
+    padding: 2%;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(75, 113, 228);
+    padding: 10px;
+    width: 5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+li{
+    background-color: rgb(195, 223, 220);
+    margin: 2%;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid;
+    border-color: rgb(179, 177, 177);
+    display: flex;
+    justify-content: space-between;
+}
+/* ul li deleteIcon{
+    background-color: rgb(42, 42, 174);
+    border-radius: 2px;
+    padding: 8px;
+
+} */
